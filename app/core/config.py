@@ -6,7 +6,7 @@ class Settings(BaseSettings):
     ALGORITHM: str = "HS256"
     ACCESS_TOKEN_EXPIRE_MINUTES: int = 60
     SURNAME_ENCRYPTION_KEY: str
-    REDIS_URL: str = "redis://localhost:6379/0"
+    REDIS_URL: str
     SMTP_HOST: str = ""
     SMTP_PORT: int = 587
     SMTP_USER: str = ""
